@@ -1,0 +1,19 @@
+{
+    "name": "alongal/contact",
+    "description": "This will send email to admin and save contact query in the database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alon Gal",
+            "email": "alon@stampme.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Alongal\\Contact\\": "src/"
+        }
+    }
+}
