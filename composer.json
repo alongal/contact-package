@@ -15,5 +15,12 @@
         "psr-4": {
             "Alongal\\Contact\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alongal\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }
